@@ -1,6 +1,5 @@
 from nautobot.extras.jobs import Job
 
-class MiPrimerJob(Job):
+class HelloJob(Job):
     def run(self, data, commit):
-        self.log_success("¡Job ejecutado correctamente!")
-
+        self.log_success("¡Funciona!")
